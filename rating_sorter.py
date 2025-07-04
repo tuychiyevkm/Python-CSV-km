@@ -1,5 +1,5 @@
 import csv
-
+     
 with open('students.csv') as f:
     reader = csv.DictReader(f)
     students = list(reader)
